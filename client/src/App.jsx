@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
-// Import all pages
+// Import pages
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
@@ -16,14 +16,13 @@ function App() {
   return (
     <Router>
       <div className="app-container">
-        
         {/* Navbar */}
         <nav className="navbar">
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About Us</Link></li>
             <li><Link to="/products">Products</Link></li>
-            <li><Link to="/clients">Restaurants & Hotels</Link></li>
+            <li><Link to="/clients">Restaurants &amp; Hotels</Link></li>
             <li><Link to="/collaboration">Collaboration (B2B)</Link></li>
             <li><Link to="/certificates">Certificates</Link></li>
             <li><Link to="/testimonials">Testimonials</Link></li>
@@ -31,7 +30,7 @@ function App() {
           </ul>
         </nav>
 
-        {/* Page Content */}
+        {/* Main content */}
         <div className="page-content">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -45,7 +44,6 @@ function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
-
       </div>
     </Router>
   );

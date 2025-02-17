@@ -6,15 +6,15 @@ function Testimonials() {
       <h2>Testimonials</h2>
       <blockquote>
         <p>
-          “The best cheeses we've ever tasted! Our customers are thrilled 
-          with the quality and taste.”
+          “The best cheeses we've ever tried! Our customers are amazed 
+          by the flavor and authenticity.”
           <br />— Chef Mario, Rome
         </p>
       </blockquote>
       <blockquote>
         <p>
-          “Absolutely outstanding flavor and genuine natural ingredients. 
-          Our hotel breakfast offerings have become a highlight for our guests!”
+          “Outstanding natural taste. Our hotel breakfasts have 
+          gained a whole new level of recognition!”
           <br />— Hotel Manager, Milan
         </p>
       </blockquote>

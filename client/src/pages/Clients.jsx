@@ -3,14 +3,14 @@ import React from 'react';
 function Clients() {
   return (
     <div>
-      <h2>Restaurants & Hotels</h2>
+      <h2>Restaurants &amp; Hotels</h2>
       <p>
-        We collaborate with top restaurants and hotels looking to serve 
-        premium Italian dairy products with an authentic taste.
+        We collaborate with top restaurants and hotels seeking 
+        high-quality, authentic Italian dairy products.
       </p>
       <p>
-        Our cheeses, ice cream, and yogurts help elevate menus and create 
-        a memorable dining experience for guests.
+        Our cheeses, yogurts, and ice creams help elevate menus 
+        and delight guests with genuine flavors.
       </p>
     </div>
   );

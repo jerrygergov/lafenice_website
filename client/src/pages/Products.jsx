@@ -4,14 +4,14 @@ function Products() {
   return (
     <div>
       <h2>Products</h2>
-      <p>Our selection includes:</p>
+      <p>We offer:</p>
       <ul>
-        <li>Buffalo mozzarella, burrata, ricotta, and other specialty cheeses</li>
-        <li>Natural buffalo milk ice cream (less sugar, rich taste)</li>
-        <li>Healthy options such as probiotic yogurts and desserts</li>
+        <li>Buffalo mozzarella, burrata, ricotta, and more</li>
+        <li>Natural buffalo milk ice cream with reduced sugar</li>
+        <li>Probiotic yogurts and healthy desserts</li>
       </ul>
       <p>
-        Each batch is produced in limited quantities to ensure freshness 
+        Each batch is produced in limited quantities, preserving freshness 
         and exceptional flavor.
       </p>
     </div>

@@ -8,13 +8,13 @@ function Certificates() {
         We adhere to strict quality and safety standards:
       </p>
       <ul>
-        <li>Italian and international quality assurance certifications</li>
-        <li>No preservatives or artificial additives in our products</li>
-        <li>Compliant with import-export licensing requirements</li>
+        <li>Italian and international quality certifications</li>
+        <li>No preservatives or artificial additives</li>
+        <li>Compliant with all import-export licenses</li>
       </ul>
       <p>
-        We believe in total transparency, ensuring our partners trust 
-        the provenance and standards of La Fenice.
+        Transparency is key—our partners can trust the 
+        origin and standards of our products.
       </p>
     </div>
   );

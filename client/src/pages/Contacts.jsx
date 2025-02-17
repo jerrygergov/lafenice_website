@@ -8,10 +8,9 @@ function Contacts() {
       <p>Email: info@lafenice.net</p>
       <p>Address: Via Vado Piano, 36, 81050 Presenzano CE, Italy</p>
       <p>
-        Fill out the form below or call us directly to discuss collaboration 
-        opportunities for your restaurant or hotel.
+        Reach out to us or fill out a request form. We look forward 
+        to cooperating with you!
       </p>
-      {/* You can add a contact form or a "Send a WhatsApp Message" button here */}
     </div>
   );
 }

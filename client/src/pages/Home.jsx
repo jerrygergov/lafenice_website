@@ -5,12 +5,12 @@ function Home() {
     <div>
       <h1>Welcome to La Fenice</h1>
       <p>
-        We produce exclusive Italian cheeses, yogurts, and ice cream made 
-        from buffalo milk.
+        We produce exclusive Italian cheeses, yogurts, and ice cream 
+        made from buffalo milk.
       </p>
       <p>
-        Partner with us and offer your guests the authentic taste of premium 
-        Italian dairy products!
+        Partner with us to offer your guests an unforgettable taste 
+        of premium Italian dairy products.
       </p>
     </div>
   );

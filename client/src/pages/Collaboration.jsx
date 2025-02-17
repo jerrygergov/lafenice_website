@@ -5,14 +5,14 @@ function Collaboration() {
     <div>
       <h2>Collaboration (B2B)</h2>
       <ul>
-        <li>Minimum order volumes: negotiated individually</li>
-        <li>Regular deliveries: ensuring product freshness</li>
-        <li>Storage terms: vary by product type (cheese, ice cream, yogurt)</li>
-        <li>Cool-chain logistics: refrigerated transport</li>
-        <li>Co-branding and marketing support opportunities</li>
+        <li>Flexible minimum order volumes</li>
+        <li>Regular deliveries for guaranteed freshness</li>
+        <li>Refrigerated shipping and proper storage conditions</li>
+        <li>Co-branding and joint marketing possibilities</li>
       </ul>
       <p>
-        Contact us to discuss details and personalized terms for your business.
+        Contact us to discuss tailored solutions for your 
+        restaurant or hotel needs.
       </p>
     </div>
   );
