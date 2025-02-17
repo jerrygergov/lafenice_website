@@ -1,0 +1,53 @@
+Technical Specification for La Fenice Trading LLC Website Development
+1. Overview
+
+The website will serve as a modern and minimalist business card for La Fenice Trading LLC, presenting the company's premium dairy products (cheese, yogurt, ice cream) to hotels and restaurants. The design should be inspired by Caseificio Palazzo but remain unique in branding, layout, and user experience.
+
+2. Tech Stack
+
+Frontend: React (Next.js for performance & SEO)
+Backend: None (Static site, no database)
+Styling: TailwindCSS (or pure CSS if preferred)
+Hosting: Vercel (or Netlify)
+3. Page Structure
+3.1 Home Page
+
+Hero Section: Large, high-quality image with a tagline (e.g., “Exclusive Buffalo Milk Products”) and a CTA button (Learn More)
+About Section: Brief introduction to La Fenice (premium quality, tradition, exclusivity)
+Products Section: Short preview of cheese, yogurt, and ice cream categories with "View More" links
+For Business Section: Why restaurants & hotels should choose La Fenice
+Contact Section: Address, email, phone, social media links
+3.2 About Page
+
+Company History: Story of La Fenice and the founder’s expertise
+Production Process: Description of the artisanal approach
+Quality Assurance: Unique selling points (no preservatives, 100% buffalo milk)
+3.3 Products Page
+
+Cheese Selection: Different varieties with descriptions
+Yogurt Selection: Health benefits, probiotic content
+Ice Cream Selection: Natural sweetness, less sugar
+3.4 For Business Page
+
+Benefits for Restaurants & Hotels
+Exclusivity of Products
+How to Partner with Us (Contact form link)
+3.5 Contact Page
+
+Business Contact Details
+Simple Inquiry Form (Name, Email, Message, Submit Button)
+Google Maps Integration (optional)
+4. Design & User Experience
+Minimalist and elegant (inspired by luxury product websites)
+Fast-loading (lightweight assets, optimized images)
+Mobile-responsive (optimized for both mobile & desktop)
+High-quality visuals (product images with subtle animations)
+5. Functional Requirements
+Static Website (no backend, no database)
+SEO-friendly (Next.js optimizations, metadata, alt text)
+Smooth animations (Framer Motion or CSS animations)
+Contact Form Submission (via EmailJS or simple mailto link)
+6. Deployment & Maintenance
+Hosting: Vercel (preferred) or Netlify
+Code Repository: GitHub or GitLab
+CI/CD: Auto-deployment via GitHub actions (if needed)

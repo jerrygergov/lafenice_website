@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif tracking-tight;
+  }
+
+  /* Enhanced typography with responsive sizes */
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  /* Enhance typography */
+  .font-serif {
+    font-family: "Cormorant Garamond", "Playfair Display", serif;
+  }
+
+  /* Premium transitions */
+  .transition-premium {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  /* Elegant spacing with responsive paddings */
+  .container {
+    @apply px-4 md:px-6 lg:px-8 mx-auto;
+    max-width: 1440px;
+  }
+
+  /* Responsive sections */
+  .section-padding {
+    @apply py-12 md:py-16 lg:py-24;
+  }
+
+  /* Mobile-first button styles */
+  .btn-premium {
+    @apply px-6 py-3 md:px-8 md:py-4 text-sm md:text-base font-medium transition-premium relative focus:outline-none focus:ring-2 focus:ring-primary/20 active:transform active:scale-95;
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+
+  /* Interactive hover effects */
+  .hover-lift {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-4px);
+  }
+
+  .hover-scale {
+    @apply transition-transform duration-300 ease-out;
+  }
+
+  .hover-scale:hover {
+    transform: scale(1.02);
+  }
+
+  /* Premium card effects */
+  .card-premium {
+    @apply transition-all duration-300 ease-out;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  }
+
+  .card-premium:hover {
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+  /* Ensure links are properly clickable */
+  a {
+    -webkit-tap-highlight-color: transparent;
+    @apply cursor-pointer;
+  }
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .container {
+    @apply px-4;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
