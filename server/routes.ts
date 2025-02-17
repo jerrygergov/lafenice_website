@@ -1,28 +1,34 @@
+
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 
+interface ContactFormData {
+  name: string;
+  email: string;
+  message: string;
+}
+
 export async function registerRoutes(app: Express): Promise<Server> {
   // Contact form endpoint
-  app.post('/api/contact', async (req, res) => {
-    try {
-      const { name, email, message } = req.body;
-      
-      // For now, just log the message since we don't have a real email service
-      console.log('Contact form submission:', { name, email, message });
-      
-      // In a real implementation, you would send an email here
-      // using a service like SendGrid or AWS SES
-      
-      res.json({ success: true });
-    } catch (error) {
-      console.error('Contact form error:', error);
-      res.status(500).json({ 
-        success: false, 
-        message: 'Failed to send message' 
-      });
-    }
-  });
-
+  app.post('/api/contact', handleContactForm);
+  
   const httpServer = createServer(app);
   return httpServer;
+}
+
+async function handleContactForm(req, res) {
+  try {
+    const { name, email, message }: ContactFormData = req.body;
+    
+    // Log form submission for now
+    console.log('Contact form submission:', { name, email, message });
+    
+    return res.json({ success: true });
+  } catch (error) {
+    console.error('Contact form error:', error);
+    return res.status(500).json({ 
+      success: false, 
+      message: 'Failed to process contact form submission' 
+    });
+  }
 }
